@@ -16,19 +16,19 @@ public class oyuncakma {
                 System.out.print("Girdiğiniz değer hatalı lütfen 0 ile 1000 aralığında bir sayı giriniz:");
                 i++;
             } else if (tahmin<sayi) {
-                System.out.print("Daha büyük giriniz:");
+                System.out.print("Daha büyük bir değer giriniz:");
                 i++;
 
 
             }
             else{
-                System.out.print("Daha küçük giriniz:");
+                System.out.print("Daha küçük bir değer giriniz:");
                 i++;
             }
             tahmin= girdi.nextInt();
 
         }
-        System.out.print("Oyunu kazandın tebrikler "+i+" kere denedin.");
+        System.out.print("Tebrikler oyunu kazandınız "+i+" kere denediniz.");
 
 
 
